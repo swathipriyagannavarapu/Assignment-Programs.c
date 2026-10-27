@@ -1,1 +1,20 @@
-
+#include<stdio.h>
+void main()
+{
+int id,p;
+id=101;
+p=4321;
+printf("\n Enter user ID and password:");
+scanf("%d%d",&id,&p);
+if(id==101)
+{ 
+ if(p==4321)
+ printf("\n Login successful");
+ else
+ printf("\n Incorrect password");
+}
+else
+{
+printf("User not found");
+}
+}
