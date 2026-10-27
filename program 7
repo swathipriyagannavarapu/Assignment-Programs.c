@@ -1,1 +1,19 @@
-
+  #include<stdio.h>
+void main()
+{
+int m;
+printf("\n Enter marks :");
+scanf("%d",&m);
+if(90<=m&&m<=100)
+printf("\n grade O");
+else if(80<=m&&m<=89)
+printf("\n grade A+");
+else if(70<=m&&m<=79)
+printf("\n grade A");
+else if(60<=m&&m<=69)
+printf("\n grade B");
+else if(50<=m&&m<=59)
+printf("\n grade C");
+else
+printf("\n Invalid mark");
+}
