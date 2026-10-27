@@ -1,1 +1,13 @@
-
+#include<stdio.h>
+void main()
+{
+int a,b,A,p;
+printf("Enter length of the rectangle:");
+scanf("%d",&a);
+printf("\n Enter breath of the rectangle:");
+scanf("%d",&b);
+A=a*b;
+printf("\n The area of the rectangle is %d",A);
+p=2*(a+b);
+printf("\n the perimeter of the rectangle is %d",p);
+}
