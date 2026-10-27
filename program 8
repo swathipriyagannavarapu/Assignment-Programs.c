@@ -1,1 +1,16 @@
-
+#include<stdio.h>
+void main()
+{
+float w,h,bmi;
+printf("\n Enter your weight and height:");
+scanf("%f%f",&w,&h);
+bmi=w/h*h;
+if(bmi<18.5)
+printf("\n Under weight");
+else if(bmi>=18.5&&bmi<25)
+printf("\n Normal");
+else if(bmi>=25 && bmi<30)
+printf("\n Overweight");
+else
+printf("\n obese");
+}
