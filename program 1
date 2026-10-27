@@ -1,1 +1,16 @@
-
+#include<stdio.h>
+void main()
+{
+int a;
+printf("\n Enter any number:");
+scanf("%d",&a);
+if(a<0)
+printf("\n The given number is negative number");
+else
+{
+ if(a==0)
+ printf("\n The given number is zero");
+ else
+ printf("\n The given number is positive number");
+}
+}
